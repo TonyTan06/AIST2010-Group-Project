@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv*/
+.env*
+*.zip
+
+guitar_style_dataset/data/wav/
+guitar_style_dataset/cnn_experiments/cnn_dataset.npz
+guitar_style_dataset/features_9_classes.npy
+guitar_style_dataset/wav_names_9_classes.npy
+guitar_style_dataset/shapes_9_classes.npy

@@ -1,0 +1,78 @@
+{
+    "model": "CNN V4",
+    "number_of_folds": 5,
+    "class_names": [
+        "alternate picking",
+        "bend",
+        "hammer on",
+        "legato",
+        "pull off",
+        "slide",
+        "sweep picking",
+        "tapping",
+        "vibrato"
+    ],
+    "recording_accuracy_mean": 0.8407407407407408,
+    "recording_accuracy_std": 0.07799792477278772,
+    "recording_f1_mean": 0.8045283713967187,
+    "recording_f1_std": 0.09170449134214533,
+    "segment_accuracy_mean": 0.6625460853802732,
+    "segment_f1_mean": 0.7167388091907948,
+    "fold_results": [
+        {
+            "fold": "fold_0",
+            "best_epoch": 18,
+            "validation_accuracy": 0.9506172839506173,
+            "validation_f1": 0.9495208609759693,
+            "test_segment_accuracy": 0.6913461538461538,
+            "test_segment_f1": 0.7270955576364606,
+            "test_recording_accuracy": 0.9166666666666666,
+            "test_recording_f1": 0.8765049879600963,
+            "test_recordings": 108
+        },
+        {
+            "fold": "fold_1",
+            "best_epoch": 28,
+            "validation_accuracy": 0.8888888888888888,
+            "validation_f1": 0.8877450980392158,
+            "test_segment_accuracy": 0.6304713804713805,
+            "test_segment_f1": 0.7169952394681718,
+            "test_recording_accuracy": 0.8333333333333334,
+            "test_recording_f1": 0.7704044946607875,
+            "test_recordings": 108
+        },
+        {
+            "fold": "fold_2",
+            "best_epoch": 30,
+            "validation_accuracy": 0.7530864197530864,
+            "validation_f1": 0.706413985051756,
+            "test_segment_accuracy": 0.5242896425297892,
+            "test_segment_f1": 0.5805861061116592,
+            "test_recording_accuracy": 0.6944444444444444,
+            "test_recording_f1": 0.6386764514684425,
+            "test_recordings": 108
+        },
+        {
+            "fold": "fold_3",
+            "best_epoch": 25,
+            "validation_accuracy": 0.9382716049382716,
+            "validation_f1": 0.9356680471231554,
+            "test_segment_accuracy": 0.7778745644599303,
+            "test_segment_f1": 0.8025810087449022,
+            "test_recording_accuracy": 0.8888888888888888,
+            "test_recording_f1": 0.866988161286407,
+            "test_recordings": 108
+        },
+        {
+            "fold": "fold_4",
+            "best_epoch": 28,
+            "validation_accuracy": 0.8888888888888888,
+            "validation_f1": 0.8876160990712074,
+            "test_segment_accuracy": 0.6887486855941115,
+            "test_segment_f1": 0.7564361339927804,
+            "test_recording_accuracy": 0.8703703703703703,
+            "test_recording_f1": 0.8700677616078596,
+            "test_recordings": 108
+        }
+    ]
+}
