@@ -113,8 +113,8 @@ The training script saves model checkpoints, training histories, fold results an
 - [x] CNN model development
 - [x] Five-fold evaluation
 - [x] Command-line audio prediction
-- [ ] Web Demo testing
-- [ ] Spectrogram visualization
+- [x] Web Demo testing
+- [x] Spectrogram visualization
 - [ ] Real-time audio classification
 - [ ] External recording evaluation
 
